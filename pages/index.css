@@ -48,15 +48,14 @@
 .header__title {
   margin: 0;
   max-width: 709px;
-  top: 243px;
-  left: 80px;
+  margin-top: 183px;
+  margin-left: 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: 1px;
-  position: absolute;
 }
 
 .header__image {
@@ -73,10 +72,8 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  position: absolute;
-  left: 80px;
-  top: 415px;
-  margin: 0;
+  margin-left: 80px;
+  margin-top: 28px;
 }
 .span-accent {
   font-family: "Noto Serif";
