@@ -27,8 +27,10 @@
             alt="caffeeshop-dark"
           />
           <ul class="nav__link">
-            <li><a class="nav__links">Recetas</a></li>
-            <li><a class="nav__links">Reservar una mesa</a></li>
+            <li><a id="#recipes" class="nav__links">Recetas</a></li>
+            <li>
+              <a id="#reservation" class="nav__links">Reservar una mesa</a>
+            </li>
             <li><a class="nav__links">Contactos</a></li>
           </ul>
         </nav>
@@ -54,22 +56,30 @@
         <div class="header__footer">
           <div class="header__column">
             <ul class="header__list">
-              <li class="header__list-item">Horarios</li>
               <li class="header__list-item">
-                Lunes a Viernes (de 10:00h a 19:00h)
+                <p class="header__paragraph">Horarios</p>
               </li>
               <li class="header__list-item">
-                Sábados y Domingos (de 11:00h a 18:00h)
+                <p class="header__paragraph">
+                  Lunes a Viernes (de 10:00h a 19:00h)
+                </p>
+              </li>
+              <li class="header__list-item">
+                <p class="header__paragraph">
+                  Sábados y Domingos (de 11:00h a 18:00h)
+                </p>
               </li>
             </ul>
-            <p>Avenida del Éxito 200, Ciudad Triple Peaks</p>
+            <p class="header__paragraph">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
           </div>
         </div>
       </header>
       <main class="content">
-        <section class="recipes">
+        <section id="recipes" class="recipes">
           <h2 class="recipes__title">Recetas</h2>
-          <h3 class="recipes_subtitle">
+          <h3 class="recipes__subtitle">
             Echa un vistazo a las recetas que hemos reunido para que elabores
             tus propios snacks.
           </h3>
@@ -110,7 +120,7 @@
             </div>
           </div>
         </section>
-        <section class="reservation"></section>
+        <section id="reservation" class="reservation"></section>
       </main>
       <footer class="footer"></footer>
     </div>
