@@ -41,6 +41,8 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
+  color: black;
 }
 .header__content {
   display: flex;
