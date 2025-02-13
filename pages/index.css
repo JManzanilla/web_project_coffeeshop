@@ -44,27 +44,27 @@
   text-decoration: none;
   color: black;
 }
-.header__content {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 80px;
-  margin-right: 5px;
-}
+
 .header__title {
+  margin: 0;
   max-width: 709px;
-  margin-top: 183px;
+  top: 243px;
+  left: 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 58px;
   line-height: 72px;
   letter-spacing: 1px;
+  position: absolute;
 }
 
 .header__image {
   width: 646px;
   height: 568px;
-  margin-top: 55px;
+  position: absolute;
+  right: 5px;
+  top: 124px;
 }
 .header__description {
   max-width: 683px;
@@ -73,6 +73,10 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  position: absolute;
+  left: 80px;
+  top: 415px;
+  margin: 0;
 }
 .span-accent {
   font-family: "Noto Serif";
@@ -81,6 +85,7 @@
   font-size: 58px;
   line-height: 72px;
   color: #2f80ed;
+  display: block;
 }
 .header__paragraph {
   margin: 0;
