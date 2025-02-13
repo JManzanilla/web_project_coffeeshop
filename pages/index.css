@@ -64,6 +64,7 @@
 .header__image {
   width: 646px;
   height: 568px;
+  margin-top: 55px;
 }
 .header__description {
   max-width: 683px;
