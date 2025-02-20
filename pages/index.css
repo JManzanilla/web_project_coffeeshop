@@ -172,8 +172,7 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 0;
-  margin-bottom: 0%;
+  margin: 0;
   padding-top: 100px;
   text-align: center;
 }
@@ -224,7 +223,7 @@
   /*padding-left: 20px;
   padding-bottom: 15px;*/
 }
-.reservation__form_input-date {
+.reservation__form-input-date {
   padding-left: 20px;
   padding-bottom: 15px;
   font-family: "Inter";
@@ -249,12 +248,12 @@
 .reservation__form-button:hover {
   opacity: 70%;
 }
-.reservation__form_label-checkbox {
+.reservation__form-label-checkbox {
   margin-left: auto;
   margin-right: auto;
   display: flex;
 }
-.reservation__form_input-checkbox {
+.reservation__form-input-checkbox {
   margin: 0%;
   width: 20px;
   height: 20px;
