@@ -123,7 +123,7 @@
   line-height: 52px;
   padding-top: 100px;
   padding-left: 80px;
-  margin: 0;
+  margin-left: auto;
 }
 .recipes__subtitle {
   max-width: 438px;
@@ -165,6 +165,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
+  padding: 100px 80px 120px;
 }
 .reservation__title {
   font-family: "Inter";
@@ -172,8 +173,8 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0;
-  padding-top: 100px;
+  margin: 0 auto 80px;
+  /*padding-top: 100px;*/
   text-align: center;
 }
 .reservation__form {
@@ -182,7 +183,6 @@
   flex-direction: column;
   margin-left: auto;
   margin-top: 80px;
-  padding-bottom: 120px;
   margin-right: auto;
 }
 .reservation__form-fieldset {
@@ -258,7 +258,7 @@
   width: 20px;
   height: 20px;
 }
-.reservation__form_label-input-checkbox {
+.reservation__form-label-input-checkbox {
   margin-left: 12px;
   height: 20px;
   align-items: center;
