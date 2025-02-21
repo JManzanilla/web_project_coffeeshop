@@ -1,0 +1,104 @@
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 100px 80px 120px;
+}
+.reservation__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 auto 80px;
+  /*padding-top: 100px;*/
+  text-align: center;
+}
+.reservation__form {
+  max-width: 385px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-top: 80px;
+  margin-right: auto;
+}
+.reservation__form-fieldset {
+  border: 0;
+  margin: auto;
+  padding: 0;
+}
+.reservation__form-label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+.reservation__form-input {
+  border-radius: 4px;
+  height: 80px;
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 15px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.reservation__form-input::placeholder {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  /*padding-left: 20px;
+  padding-bottom: 15px;*/
+}
+.reservation__form-input-date {
+  padding-left: 20px;
+  padding-bottom: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.reservation__form-button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  height: 60px;
+  margin-bottom: 32px;
+  width: 100%;
+  background-color: #2f80ed;
+  color: #ffffff;
+}
+.reservation__form-button:hover {
+  opacity: 70%;
+}
+.reservation__form-label-checkbox {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.reservation__form-input-checkbox {
+  margin: 0%;
+  width: 20px;
+  height: 20px;
+}
+.reservation__form-label-input-checkbox {
+  margin-left: 12px;
+  height: 20px;
+  align-items: center;
+}
