@@ -32,14 +32,27 @@
 .footer__social-heading {
   margin-bottom: 20px;
   margin-top: 0%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 .footer__list {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 .footer__list-item {
   margin-bottom: 16px;
+}
+.footer__list-item:hover {
+  color: #c1c1c1;
 }
 .footer__column-link {
   color: #ffffff;
@@ -52,7 +65,7 @@
   height: 16px;
   width: 16px;
 }
-.footer__content-circle {
+.footer__circle {
   border-radius: 50%;
   height: 340px;
   width: 340px;
@@ -64,4 +77,9 @@
 }
 .footer__copyright {
   margin-top: 108px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }

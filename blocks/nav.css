@@ -29,3 +29,6 @@
   text-decoration: none;
   color: black;
 }
+.nav__links:hover {
+  color: #2f80ed;
+}
