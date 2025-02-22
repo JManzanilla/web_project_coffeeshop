@@ -4,6 +4,9 @@
   max-height: 800px;
   height: 100vh;
   flex-direction: column;
+  background-image: url(../images/background_header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .header__title {
   margin: 0;
